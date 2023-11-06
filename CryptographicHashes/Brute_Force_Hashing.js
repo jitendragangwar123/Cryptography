@@ -20,3 +20,15 @@ const bHash = sha256(bBytes);
 console.log(toHex(aHash) === toHex(aHash)); // true
 console.log(toHex(aHash) === toHex(bHash)); // false
 */
+
+/*
+Ranibow Table :
+- A rainbow table is simply a table which maps common inputs to their hash output. For instance, we could map common passwords to their SHA256 hashes.
+
+COMMON PASSWORDS	SHA256 HASH
+password	        0x5e8848...1542d8
+qwerty	          0x65e84b...2337c5
+111111	          0xbcb15f...09802a
+*/
+
+

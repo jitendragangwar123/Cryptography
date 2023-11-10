@@ -6,3 +6,4 @@
 - [Introduction](https://github.com/jitendragangwar123/Cryptography/tree/main/Introduction)
 - [Cryptographic Hashes](https://github.com/jitendragangwar123/Cryptography/tree/main/CryptographicHashes)
 - [PublicKey Crptography](https://github.com/jitendragangwar123/Cryptography/tree/main/PublicKeyCrptography)
+- [Proof Of Work](https://github.com/jitendragangwar123/Cryptography/tree/main/ProofOfWork)

@@ -15,5 +15,10 @@ PublicKey :-
 */
 
 /*
+EdDSA keys are smaller compared to ECDSA keys for equivalent security levels, 
+    which means that EdDSA can provide equivalent security with smaller key sizes, making it more efficient in terms of storage and bandwidth requirements.
+*/
+
+/*
  Demo :- https://tools.superdatascience.com/blockchain/public-private-keys/keys
 */

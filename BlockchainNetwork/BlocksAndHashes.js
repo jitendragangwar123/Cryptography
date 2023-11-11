@@ -21,18 +21,18 @@ Note : 1. A valid hash for a blockchain is a hash that meets certain requirement
        Example:
        f ( index + previous hash + timestamp + data + nonce ) = hash
        f ( 0 + "0" + 1508270000000 + "Welcome to Blockchain Demo 2.0!" + 604 ) = 000dc75a315c77a1f9c98fb6247d03dd18ac52632d7dc6a9920261d8109b37cf
-  */
+*/
   
-  /*
-    1. if you see a string of characters "0x123abc", the "0x" is denoting the use of hexadecimals and the string's value is actually just "123abc".
-    2. The hash of the block is being tested by the regular expression (regex) /^[0-9A-F]{64}$/i
-    3. hash it to a 256 bit array. If we call toString() on that returned object we'll receive a 64 character hexadecimal string.
-  */
+/*
+  1. if you see a string of characters "0x123abc", the "0x" is denoting the use of hexadecimals and the string's value is actually just "123abc".
+  2. The hash of the block is being tested by the regular expression (regex) /^[0-9A-F]{64}$/i
+  3. hash it to a 256 bit array. If we call toString() on that returned object we'll receive a 64 character hexadecimal string.
+*/
   
-  /*
+/*
   const hash = SHA256("Dan");
   console.log( hash.toString() );
-  */
+*/
   
 //Block.js
 const SHA256 = require('crypto-js/sha256');
